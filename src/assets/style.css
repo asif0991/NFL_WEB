@@ -1,0 +1,54 @@
+@media (min-width: 0px) and (orientation: landscape){
+.MuiToolbar-regular {
+    min-height: 6rem !important;
+    }
+}
+
+@media (min-width: 200px){
+.MuiToolbar-regular {
+    min-height: 6rem !important;
+    }
+}
+
+#header.MuiAppBar-colorPrimary {
+    color: #fff;
+    background: url(../assets/images/green-bg.jpg) !important; 
+}
+
+#subheader.MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: green !important; 
+}
+
+.MuiTabs-centered {
+    justify-content: center !important;
+}
+
+.MuiTabs-flexContainer{
+    justify-content: flex-end !important;
+}
+
+/* .MuiContainer-root{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+} */
+.makeStyles-paper-10{
+    margin-top:0px !important;
+}
+.login-header{
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: black;
+}
+
+em {
+    font-style: normal;
+}
+.makeStyles-paper-7{
+    overflow-y: scroll;
+    height: 455px;
+}   
+
+.MuiGrid-grid-xs-4 > div {
+    overflow-y: hidden;
+}
