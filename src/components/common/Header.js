@@ -9,6 +9,7 @@ import TabContext from "@material-ui/lab/TabContext";
 import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import Login from '../login/Login';
+import Registration from '../Registration/Registration';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -31,9 +32,7 @@ const Header = () => {
             <AppBar id="header" position="relative">
                 <Toolbar>
 
-                    <Typography variant="h6" color="inherit" noWrap>
-                        
-                    </Typography>
+                    <Typography variant="h6" color="inherit" noWrap></Typography>
                 </Toolbar>
             </AppBar>
             <div className={classes.root}>
@@ -44,8 +43,10 @@ const Header = () => {
                             <Tab label="Login" value="1"/>
                         </TabList>
                     </AppBar>
-                    <TabPanel value="2">Registration</TabPanel>
-                    <TabPanel value="1">
+                    <TabPanel value="2">
+                        <Registration/>
+                    </TabPanel>
+                    <TabPanel className="marginTop10rem" value="1">
                         <Login/>
                     </TabPanel>
                 </TabContext>
